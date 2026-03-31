@@ -1,12 +1,14 @@
 # MabuhAi
 
-**MabuhAi** is a mental health and emotional wellness app designed to give users a safe, supportive, and calming digital space for reflection, connection, and self-care.
+**MabuhAi** is a **mobile mental health and emotional wellness app** designed to give users a safe, supportive, and calming digital space for reflection, connection, and self-care.
 
-Built with **Tauri**, **React**, **TypeScript**, and **Vite**, the app combines an editorial, sanctuary-inspired UI with practical mental health tools that help users check in, express themselves, and find support when they need it most.
+Built with **Tauri**, **React**, **TypeScript**, and **Vite**, the app is planned as a **mobile-first experience** with an editorial, sanctuary-inspired UI and practical mental health tools that help users check in, express themselves, and find support when they need it most.
 
 ## ✨ Overview
 
-MabuhAi is designed to support everyday well-being through guided emotional check-ins, AI-assisted conversations, private journaling, and safety-focused support features. The experience aims to feel warm, accessible, and non-judgmental.
+MabuhAi is designed to support everyday well-being through guided emotional check-ins, AI-assisted conversations, private journaling, and safety-focused support features. The experience is intended to be **mobile-first**, warm, accessible, touch-friendly, and non-judgmental.
+
+This project will be developed collaboratively by **35 students**, organized into **7 groups of 5 members each**, with **AI assistance** used for research, planning, coding support, testing, and documentation.
 
 ## 🌿 Core Features
 
@@ -49,12 +51,106 @@ Quick access to emergency hotlines and crisis support resources when immediate h
 ### 13. AI Guardrails & Safety Monitoring
 Built-in protective measures to detect harmful behavior, possible abuse, or crisis-related language and guide users to safer support options.
 
+## 👥 Development Plan and Task Assignment
+
+The MabuhAi project will be built as a **group-based student collaboration project**. Each group will focus on a major module of the **mobile app** while working under one shared design system and codebase.
+
+### Team Structure
+
+- **Total students:** 35
+- **Group size:** 5 members per group
+- **Total groups:** 7
+- **Support approach:** Each group may use **AI assistance** for brainstorming, debugging, research, documentation, and implementation support.
+
+### Group Assignments
+
+| Group | Focus Area | Main Responsibilities |
+| --- | --- | --- |
+| **Group 1** | **Authentication & User Access** | Build `sign-up`, `sign-in`, logout, session persistence, protected routes, and user onboarding flow. This group is responsible for secure account access and user identity management. |
+| **Group 2** | **AI Chat Support & Safety** | Develop the chatbot experience, emotional support flow, conversation UI, AI guardrails, basic crisis-risk prompts or abuse detection responses, and a clear **Privacy Policy screen** as part of the app’s safety and trust features. |
+| **Group 3** | **Mood Tracking & Insights** | Build the daily mood checker, mood history, analytics, charts, and mood pattern insights. They also handle activity suggestions based on mood trends. |
+| **Group 4** | **Digital Thought Record & Mask-Off Mode** | Create the diary/journal system for text, voice, and video entries, plus the private `Mask-Off Mode` for safe emotional expression. |
+| **Group 5** | **Self-Care, Tips, and Gamification** | Implement predictive self-care reminders, wellness prompts, affirmations, points, badges, streaks, and engagement systems. |
+| **Group 6** | **GIS, Community, and Urgent Help** | Build the nearby psychologist locator, community/group therapy section, trusted-support connections, and the urgent help / hotline access feature. |
+| **Group 7** | **Branding, Promotion, and Presentation** | Lead the project identity, branding assets, logo direction, app messaging, screenshots, presentation deck, demo script, and promotion materials. |
+
+### Suggested Roles Per Group
+
+Each 5-member group can divide responsibilities like this:
+
+1. **Team Lead / Coordinator** – manages tasks, deadlines, communication, and integration with other groups.
+2. **UI/UX Designer / Frontend Designer** – translates the app theme and user flows into polished screens and interactions.
+3. **Frontend Developer** – builds components, pages, and feature interactions in React.
+4. **Logic / Data Developer** – handles data flow, integration, state management, APIs, or backend-connected logic.
+5. **QA / Documentation / AI Support Member** – tests features, documents progress, prepares reports, and helps the team use AI tools effectively.
+
+### Collaboration Plan
+
+- All groups should follow the shared design direction in `DESIGN.md`.
+- The authentication group should coordinate early with all feature groups that require user accounts.
+- The branding and promotion group should work closely with the UI teams to keep visuals and messaging consistent.
+- Each group should document its progress, blockers, and completed deliverables weekly.
+- Final integration should include shared testing, bug fixing, and demo preparation across all teams.
+
+### Recommended Project Phases
+
+1. **Planning & Research** – define scope, wireframes, and responsibilities.
+2. **Design & Setup** – prepare UI direction, shared components, and repo workflow.
+3. **Feature Development** – each group builds its assigned module with AI support.
+4. **Integration & Testing** – combine all modules, fix bugs, and validate flows.
+5. **Presentation & Promotion** – finalize branding, pitch deck, demo, and documentation.
+
+## Final Submission Requirements
+
+For the **final submission**, each group must prepare a **comprehensive document** that clearly presents their accomplishments and contributions to the MabuhAi mobile app.
+
+### Each group submission should include:
+
+- **Group name and member list**
+- **Assigned module / feature area**
+- **Project objectives and scope of work**
+- **Completed features and deliverables**
+- **Screenshots or UI previews** of the finished work
+- **Technical implementation summary** explaining how the feature was built
+- **Challenges encountered and solutions applied**
+- **Testing, validation, and improvements made**
+- **AI assistance used** for planning, coding, testing, or documentation
+- **Recommendations or next steps** for future development
+
+## 📝 Peer Review Requirement
+
+In addition to the group submission, each student will complete a **peer review form** to evaluate the contributions of their group members.
+
+### Peer review criteria may include:
+
+- Attendance and participation
+- Quality of work delivered
+- Communication and teamwork
+- Reliability in completing assigned tasks
+- Initiative and problem-solving
+- Responsible and effective use of AI assistance
+
+> Peer review results may be used to support or adjust individual grading within each group.
+
+## 📊 Grading Rubric
+
+| Criteria | Description | Weight |
+| --- | --- | --- |
+| **Functionality & Feature Completion** | Required features are implemented correctly and work as expected. | **30%** |
+| **UI/UX & Mobile-First Design** | The interface is clear, usable, visually consistent, and optimized for mobile experience. | **20%** |
+| **Code Quality & Organization** | Code is readable, modular, maintainable, and follows the agreed project structure. | **15%** |
+| **Documentation & Final Report** | The group submits a complete, clear, and well-organized accomplishment document. | **15%** |
+| **Team Collaboration & Task Fulfillment** | The group shows good coordination, clear task ownership, and meaningful contribution from members. | **10%** |
+| **Presentation, Branding & Demo** | The final demo, presentation, and communication of the project are polished and effective. | **10%** |
+|  | **Total** | **100%** |
+
 ## 🛠️ Tech Stack
 
 - **Frontend:** React + TypeScript + Vite
-- **Desktop Runtime:** Tauri
+- **App Runtime:** Tauri v2 (mobile-ready, cross-platform)
 - **Styling:** Tailwind CSS v4
 - **UI Components:** shadcn-style primitives
+- **UX Direction:** Mobile-first, touch-friendly design
 
 ## 🚀 Getting Started
 

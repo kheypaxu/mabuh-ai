@@ -1,6 +1,6 @@
 # Copilot Instructions for MabuhAi
 
-This project is **MabuhAi**, a mental health and emotional wellness app built with **Tauri**, **React**, **TypeScript**, **Vite**, and **Tailwind CSS**.
+This project is **MabuhAi**, a **mobile-first** mental health and emotional wellness app built with **Tauri**, **React**, **TypeScript**, **Vite**, and **Tailwind CSS**.
 
 ## Preferred Frontend Stack
 
@@ -14,6 +14,7 @@ When adding or updating app features, use the following technologies by default:
 ## Implementation Guidance
 
 - Prefer **functional React components** and **TypeScript-first** code.
+- Treat all product work as **mobile-first**: prioritize small-screen layouts, touch targets, bottom-sheet or bottom-nav patterns, and responsive behavior before desktop refinements.
 - Use **Framer Motion** for page transitions, micro-interactions, onboarding flows, modal animations, and mood-feedback interactions.
 - Use **Supabase Auth** for sign in, sign up, session persistence, and protected experiences.
 - Use **Zustand** for lightweight client-side state such as UI preferences, onboarding flow state, mood draft state, and session-adjacent app state.
@@ -27,6 +28,7 @@ When adding or updating app features, use the following technologies by default:
 - Avoid introducing alternative tools like **Redux**, **Context-heavy global state**, or other auth/data libraries unless explicitly requested.
 - Reuse the existing design language in `DESIGN.md` and maintain the calm, editorial, sanctuary-style UI.
 - Favor small, reusable components and clear folder organization.
+- Optimize for mobile usability: readable typography on small screens, comfortable spacing, swipe/tap-friendly interactions, and lightweight performance.
 
 ## Suggested Structure
 
