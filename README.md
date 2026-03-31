@@ -8,7 +8,7 @@ Built with **Tauri**, **React**, **TypeScript**, and **Vite**, the app is planne
 
 MabuhAi is designed to support everyday well-being through guided emotional check-ins, AI-assisted conversations, private journaling, and safety-focused support features. The experience is intended to be **mobile-first**, warm, accessible, touch-friendly, and non-judgmental.
 
-This project will be developed collaboratively by **35 students**, organized into **7 groups of 5 members each**, with **AI assistance** used for research, planning, coding support, testing, and documentation.
+This project will be developed collaboratively by **40 students**, organized into **8 groups of 5 members each**, with **AI assistance** used for research, planning, coding support, testing, and documentation.
 
 ## 🌿 Core Features
 
@@ -57,9 +57,9 @@ The MabuhAi project will be built as a **group-based student collaboration proje
 
 ### Team Structure
 
-- **Total students:** 35
+- **Total students:** 40
 - **Group size:** 5 members per group
-- **Total groups:** 7
+- **Total groups:** 8
 - **Support approach:** Each group may use **AI assistance** for brainstorming, debugging, research, documentation, and implementation support.
 
 ### Group Assignments
@@ -73,6 +73,7 @@ The MabuhAi project will be built as a **group-based student collaboration proje
 | **Group 5** | **Self-Care, Tips, and Gamification** | Implement predictive self-care reminders, wellness prompts, affirmations, points, badges, streaks, and engagement systems. |
 | **Group 6** | **GIS, Community, and Urgent Help** | Build the nearby psychologist locator, community/group therapy section, trusted-support connections, and the urgent help / hotline access feature. |
 | **Group 7** | **Branding, Promotion, and Presentation** | Lead the project identity, branding assets, logo direction, app messaging, screenshots, presentation deck, demo script, and promotion materials. |
+| **Group 8** | **QA/QC Engineers** | Act as the dedicated QA/QC engineers to test the app across flows, identify bugs and usability issues, document findings, report issues to the teacher, verify fixes, and recommend additional features when they identify meaningful gaps or improvement opportunities. |
 
 ### Suggested Roles Per Group
 
@@ -89,6 +90,7 @@ Each 5-member group can divide responsibilities like this:
 - All groups should follow the shared design direction in `DESIGN.md`.
 - The authentication group should coordinate early with all feature groups that require user accounts.
 - The branding and promotion group should work closely with the UI teams to keep visuals and messaging consistent.
+- The QA/QC engineers should test each major module, maintain a clear issue list, and submit issue reports and feature suggestions to the teacher.
 - Each group should document its progress, blockers, and completed deliverables weekly.
 - Final integration should include shared testing, bug fixing, and demo preparation across all teams.
 
@@ -134,12 +136,15 @@ In addition to the group submission, each student will complete a **peer review 
 
 ## 📊 Grading Rubric
 
+The rubric should be applied based on each group’s **assigned scope**. For the **QA/QC Engineers group**, deliverables such as test plans, issue logs, validation reports, fix verification, and well-justified feature recommendations should be graded as their primary output.
+
 | Criteria | Description | Weight |
 | --- | --- | --- |
-| **Functionality & Feature Completion** | Required features are implemented correctly and work as expected. | **30%** |
-| **UI/UX & Mobile-First Design** | The interface is clear, usable, visually consistent, and optimized for mobile experience. | **20%** |
-| **Code Quality & Organization** | Code is readable, modular, maintainable, and follows the agreed project structure. | **15%** |
-| **Documentation & Final Report** | The group submits a complete, clear, and well-organized accomplishment document. | **15%** |
+| **Assigned Scope Completion** | The group completes the responsibilities of its assigned module. For the QA/QC Engineers group, this includes meaningful test coverage, issue discovery, validation work, and fix verification. | **25%** |
+| **UI/UX & Mobile-First Design** | The interface or reviewed user flows are clear, usable, visually consistent, and optimized for mobile experience. The QA/QC Engineers group may be graded here through usability findings and user-experience evaluation. | **15%** |
+| **Code Quality, Testing Artifacts & Organization** | Code, test assets, reports, and supporting materials are clear, structured, maintainable, and aligned with the agreed project workflow. | **15%** |
+| **Documentation, Issue Reporting & Final Report** | The group submits a complete, clear, and well-organized accomplishment document. For the QA/QC Engineers group, this includes issue logs, bug reports, validation summaries, and recommendation notes. | **15%** |
+| **Quality Assurance & Improvement Recommendations** | The group demonstrates effective testing, validation, bug tracking, fix confirmation, and thoughtful suggestions for meaningful feature or usability improvements. | **10%** |
 | **Team Collaboration & Task Fulfillment** | The group shows good coordination, clear task ownership, and meaningful contribution from members. | **10%** |
 | **Presentation, Branding & Demo** | The final demo, presentation, and communication of the project are polished and effective. | **10%** |
 |  | **Total** | **100%** |
