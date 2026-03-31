@@ -22,7 +22,7 @@ A simple daily tool for users to log how they feel and monitor emotional changes
 Visual summaries and trends that help users better understand their moods, triggers, and habits.
 
 ### 4. Digital Thought Record
-A private diary for capturing thoughts and emotions through **text, voice, or video entries**.
+A private diary for capturing thoughts and emotions through **text, voice entries**.
 
 ### 5. Mask-Off Mode
 A safe, judgment-free space where users can express thoughts and feelings they may not be comfortable sharing elsewhere.
@@ -69,7 +69,7 @@ The MabuhAi project will be built as a **group-based student collaboration proje
 | **Group 1** | **Authentication & User Access** | Build `sign-up`, `sign-in`, logout, session persistence, protected routes, and user onboarding flow. This group is responsible for secure account access and user identity management. |
 | **Group 2** | **AI Chat Support & Safety** | Develop the chatbot experience, emotional support flow, conversation UI, AI guardrails, basic crisis-risk prompts or abuse detection responses, and a clear **Privacy Policy screen** as part of the app’s safety and trust features. |
 | **Group 3** | **Mood Tracking & Insights** | Build the daily mood checker, mood history, analytics, charts, and mood pattern insights. They also handle activity suggestions based on mood trends. |
-| **Group 4** | **Digital Thought Record & Mask-Off Mode** | Create the diary/journal system for text, voice, and video entries, plus the private `Mask-Off Mode` for safe emotional expression. |
+| **Group 4** | **Digital Thought Record & Mask-Off Mode** | Create the diary/journal system for text, and voice entries, plus the private `Mask-Off Mode` for safe emotional expression. |
 | **Group 5** | **Self-Care, Tips, and Gamification** | Implement predictive self-care reminders, wellness prompts, affirmations, points, badges, streaks, and engagement systems. |
 | **Group 6** | **GIS, Community, and Urgent Help** | Build the nearby psychologist locator, community/group therapy section, trusted-support connections, and the urgent help / hotline access feature. |
 | **Group 7** | **Branding, Promotion, and Presentation** | Lead the project identity, branding assets, logo direction, app messaging, screenshots, presentation deck, demo script, and promotion materials. |
