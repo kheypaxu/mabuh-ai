@@ -11,7 +11,11 @@ import {
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 
+// navigating to chatbot
+import { useNavigate } from "react-router-dom";
+
 function App() {
+  const navigate = useNavigate();
   const [greetMsg, setGreetMsg] = useState("");
   const [name, setName] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -73,6 +77,15 @@ function App() {
                   Twilight Glow theme
                 </span>
               </div>
+
+              <Button 
+                  variant="ghost" 
+                  size="sm" 
+                  onClick={() => navigate("/chatbot")}
+                  className="rounded-full text-secondary hover:text-secondary hover:bg-secondary/10"
+                >
+                  Open Chat
+                </Button>
 
               <div className="space-y-3">
                 <CardTitle className="max-w-3xl text-4xl leading-[1.05] tracking-[-0.04em] sm:text-5xl">
